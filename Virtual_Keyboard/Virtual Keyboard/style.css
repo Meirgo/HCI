@@ -1,0 +1,22 @@
+/* style.css */
+body {
+    width: 100%; /* Allow the body to take the full width */
+}
+
+#keyboard {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    gap: 10px;
+    max-width: 100%; /* Allow the keyboard to take the full width of the body */
+    margin: 0 auto; /* Center the keyboard horizontally */
+}
+
+.key {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+.caps.active {
+    background-color: lightblue;
+}
